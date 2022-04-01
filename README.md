@@ -1,5 +1,6 @@
 # netty-chat-demo
 netty模块包含了chat聊天的实现
+
 send [username] [content]
 gsend [group name] [content]
 gcreate [group name] [m1,m2,m3...]
