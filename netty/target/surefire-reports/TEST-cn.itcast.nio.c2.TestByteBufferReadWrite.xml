@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="0" failures="0" name="cn.itcast.nio.c2.TestByteBufferReadWrite" time="0" errors="0" skipped="0">
+  <properties>
+    <property name="idea.version" value="2021.2.1"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="sun.boot.library.path" value="D:\Program Files\JetBrains\IntelliJ IDEA 2021.2.1\jbr\bin\jdk\corretto-1.8.0_302\jre\bin"/>
+    <property name="java.vm.version" value="25.302-b08"/>
+    <property name="java.vm.vendor" value="Amazon.com Inc."/>
+    <property name="maven.multiModuleProjectDirectory" value="D:\javaProject\Netty-demo"/>
+    <property name="java.vendor.url" value="https://aws.amazon.com/corretto/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="CN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="D:\javaProject\Netty-demo"/>
+    <property name="java.runtime.version" value="1.8.0_302-b08"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="D:\Program Files\JetBrains\IntelliJ IDEA 2021.2.1\jbr\bin\jdk\corretto-1.8.0_302\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\wy\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="maven.ext.class.path" value="D:\Program Files\JetBrains\IntelliJ IDEA 2021.2.1\plugins\maven\lib\maven-event-listener.jar"/>
+    <property name="classworlds.conf" value="D:\javaSoft\apache-maven-3.8.2\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="GBK"/>
+    <property name="java.library.path" value="D:\Program Files\JetBrains\IntelliJ IDEA 2021.2.1\jbr\bin\jdk\corretto-1.8.0_302\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;D:\Program Files (x86)\VMware\VMware Workstation\bin\;D:\Anaconda3;D:\Anaconda3\Library\mingw-w64\bin;D:\Anaconda3\Library\usr\bin;D:\Anaconda3\Library\bin;D:\Anaconda3\Scripts;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;D:\Program Files\nodejs\;D:\python\swigwin-3.0.12;D:\javaSoft\jdk\corretto-1.8.0_302\bin;D:\javaSoft\jdk\corretto-1.8.0_302\jre\bin;D:\javaSoft\apache-tomcat-8.5.71\bin;D:\javaSoft\apache-tomcat-8.5.71\lib;C:\Program Files\Git\cmd;%GERLANG_HOME%\bin;D:\javaSoft\apache-maven-3.8.2\bin;C:\Users\wy\AppData\Local\Microsoft\WindowsApps;;C:\Program Files\JetBrains\PyCharm 2021.1.1\bin;;C:\Users\wy\AppData\Roaming\npm;D:\Program Files\JetBrains\IntelliJ IDEA 2021.2.1\bin;;D:\Users\wy\AppData\Local\Programs\Microsoft VS Code\bin;."/>
+    <property name="maven.conf" value="D:\javaSoft\apache-maven-3.8.2/conf"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="maven.repo.local" value="D:\javaSoft\.m2"/>
+    <property name="os.version" value="10.0"/>
+    <property name="user.home" value="C:\Users\wy"/>
+    <property name="user.timezone" value="Asia/Shanghai"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="user.name" value="wy"/>
+    <property name="java.class.path" value="D:\javaSoft\apache-maven-3.8.2\boot\plexus-classworlds-2.6.0.jar;D:\javaSoft\apache-maven-3.8.2\boot\plexus-classworlds.license;D:\Program Files\JetBrains\IntelliJ IDEA 2021.2.1\lib\idea_rt.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="D:\Program Files\JetBrains\IntelliJ IDEA 2021.2.1\jbr\bin\jdk\corretto-1.8.0_302\jre"/>
+    <property name="sun.java.command" value="org.codehaus.classworlds.Launcher -Didea.version=2021.2.1 -Dmaven.repo.local=D:\javaSoft\.m2 clean install"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="zh"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_302"/>
+    <property name="java.ext.dirs" value="D:\Program Files\JetBrains\IntelliJ IDEA 2021.2.1\jbr\bin\jdk\corretto-1.8.0_302\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="D:\Program Files\JetBrains\IntelliJ IDEA 2021.2.1\jbr\bin\jdk\corretto-1.8.0_302\jre\lib\resources.jar;D:\Program Files\JetBrains\IntelliJ IDEA 2021.2.1\jbr\bin\jdk\corretto-1.8.0_302\jre\lib\rt.jar;D:\Program Files\JetBrains\IntelliJ IDEA 2021.2.1\jbr\bin\jdk\corretto-1.8.0_302\jre\lib\sunrsasign.jar;D:\Program Files\JetBrains\IntelliJ IDEA 2021.2.1\jbr\bin\jdk\corretto-1.8.0_302\jre\lib\jsse.jar;D:\Program Files\JetBrains\IntelliJ IDEA 2021.2.1\jbr\bin\jdk\corretto-1.8.0_302\jre\lib\jce.jar;D:\Program Files\JetBrains\IntelliJ IDEA 2021.2.1\jbr\bin\jdk\corretto-1.8.0_302\jre\lib\charsets.jar;D:\Program Files\JetBrains\IntelliJ IDEA 2021.2.1\jbr\bin\jdk\corretto-1.8.0_302\jre\lib\jfr.jar;D:\Program Files\JetBrains\IntelliJ IDEA 2021.2.1\jbr\bin\jdk\corretto-1.8.0_302\jre\classes"/>
+    <property name="java.vendor" value="Amazon.com Inc."/>
+    <property name="maven.home" value="D:\javaSoft\apache-maven-3.8.2"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="https://github.com/corretto/corretto-8/issues/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+</testsuite>
